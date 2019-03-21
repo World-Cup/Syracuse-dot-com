@@ -1,7 +1,10 @@
 h1{
     @include buildFont(arial, 60px, limegreen);
 }
-.showcase{
+h2{
+    @include buildFont(arial, 48px, red);
+}
+.showcase{ 
     background-color: black;
     color: white;
     .primary{
